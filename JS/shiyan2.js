@@ -26,10 +26,10 @@ var isMvMode = false; // 是否处于MV模式
 
 var musicId = 0;
 var musicData = [
-    ['城北的花', '王宇宙，马冰'],
-    ['我记得', '赵雷，马冰'],
-    ['春娇与志明', '街道办GDC，马冰'],
-    ['很久很久', '杨和苏，马冰'],
+    ['城北的花', '王宇宙，章宝炫'],
+    ['我记得', '赵雷，章宝炫'],
+    ['春娇与志明', '街道办GDC，章宝炫'],
+    ['很久很久', '杨和苏，章宝炫'],
 ];
 
 // MV数据（假设每首歌都有对应的MV）
@@ -414,4 +414,5 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && isMvMode) {
         closeMv();
     }
+
 });
